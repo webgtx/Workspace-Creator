@@ -22,7 +22,7 @@ elif [ $kitOption = "3" ]; then
 elif [ $kitOption = "2" ]; then
 	mkdir $dirName
 	cd $dirName
-	cp /home/$USER/.src/C/main.c $dirName -r $pwd
+	cp /home/$USER/.src/C/main.c main.c -r $pwd
 	echo "Your C-dev workspace was created"
 else
 	echo "Worng option"
